@@ -36,3 +36,18 @@ The two LED branches can be separately controlled by pulse-width modulation (whi
 - CTRL-1 - GND
 - CTRL-2 - RASPBERRY Pi PWM (channel 1)
 - CTRL-3 - RASPBERRY Pi PWM (channel 2)
+
+### Box
+
+The electronics box is made of 5mm thick plywood. Dimensions: 23x11x4 centimeters. We designed the box in Fusion 360 and used the sketches for cutting the sides of the box in laser cut. The assembly can be easily seen in following photos.
+
+#### Front side
+
+Taking from left to right, there is a 15mm switch hole, beneath this switch hole is a 4.9mm hole for indication led, then there is an 8mm hole for input voltage, a 15mm hole for a DIN connector (it provides access to Raspberry Pi pins), a 16mm hole for a Raspberry Pi shutdown button and lastly a second hole for an indication LED.
+
+#### Components 
+
+- ON/OFF switch, panel mount
+- DC power connector, jack, 2.1mm x 5.5mm, panel mount
+- DIN 5 female connector, panel mount, 180°
+- button, panel mount
