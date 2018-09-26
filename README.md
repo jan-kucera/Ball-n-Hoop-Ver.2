@@ -1,6 +1,22 @@
-# Ball-n-Hoop-Ver.2
+# Ball in Hoop 
+
+## Introduction
+
+Our motivation for developing the Ball In Hoop model was to demonstrate non-trivial, complex control algorithms on a simple, easy-to-make and compact model. As the name suggests, the model consists of the ball and the hoop. The ball can freely rotate in the hoop and the hoop is attached to a motor which allows us to exert a torque on the hoop. The goal is to damp the undesired oscillations of the ball. In other words, the goal is to calculate a torque acting against the oscillations based on the measured position of the ball.
+
+This repository should help you to make this model on your own. It provides a step-by-step guide. Please bear in mind that the whole project is still in development. That means there is always a plenty of possible improvements and even we ourselves made several changes and deflected slightly from the guide written below.
+
+The theoretical background of the model is explained in following paper:
+
+For exploring our previous version of the model and its capabilities please check these sites and videos:
 
 ## Design
+
+You can see the arrangement of the model in the following picture.An acrylic board bears an electronics box and a motor holder. Concerning the hoop holder, there are ODrive Driver, ODrive Motor (bearing the hoop) and matching encoder attached to it. The electronics box includes Raspberry Pi 3b+, a step-down converter (from 48VDC to 5VDC), a smaller box for balls and a light module holder (which bears the Raspberry Pi Camera V1). 
+
+### Acrylic board
+
+It actually consists of two acrylics with dimensions 450x230x5mm. They stand on four small rubber legs. There are eight holes in the board - seven mounting holes and one hole for cabels. The displacement of the holes can be seen in following picture:
 
 ### Light
 
