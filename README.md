@@ -18,6 +18,21 @@ You can see the arrangement of the model in the following picture.An acrylic boa
 
 It actually consists of two acrylics with dimensions 450x230x5mm. They stand on four small rubber legs. There are eight holes in the board - seven mounting holes and one hole for cabels. The displacement of the holes can be seen in following picture:
 
+### Box
+
+The electronics box is made of 5mm thick plywood. Dimensions: 23x11x4 centimeters. We designed the box in Fusion 360 and used the sketches for cutting the sides of the box in laser cutter.
+
+#### Front side
+
+Taking from left to right, there is a 15mm switch hole, beneath this switch hole is a 4.9mm hole for indication led, then there is an 8mm hole for input voltage, a 15mm hole for a DIN connector (it provides access to Raspberry Pi pins), a 16mm hole for a Raspberry Pi shutdown button and lastly a second hole for an indication LED.
+
+#### Components 
+
+- ON/OFF switch, panel mount
+- DC power connector, jack, 2.1mm x 5.5mm, panel mount
+- DIN 5 female connector, panel mount, 180°
+- button, panel mount
+
 ### Light
 
 The whole concept of a model light differs completely from the previous version of the model (*version 1*). Previously, we dismantled a LED bulb and used its components to make the model light. Now, we decided to make the light on our own. Thus, we have made a schematic and a PCB in Autodesk Eagle PCB designer.
@@ -53,17 +68,18 @@ The two LED branches can be separately controlled by pulse-width modulation (whi
 - CTRL-2 - RASPBERRY Pi PWM (channel 1)
 - CTRL-3 - RASPBERRY Pi PWM (channel 2)
 
-### Box
+### Motor holder
 
-The electronics box is made of 5mm thick plywood. Dimensions: 23x11x4 centimeters. We designed the box in Fusion 360 and used the sketches for cutting the sides of the box in laser cut. The assembly can be easily seen in following photos.
+The motor holder is mounted to the acrylic through three holes (5mm diameter) which are displaced as follows:
 
-#### Front side
+Furthermore, there are holes for ODrive, encoder, motor and also a hole which alows a motor axis go through the holder.
 
-Taking from left to right, there is a 15mm switch hole, beneath this switch hole is a 4.9mm hole for indication led, then there is an 8mm hole for input voltage, a 15mm hole for a DIN connector (it provides access to Raspberry Pi pins), a 16mm hole for a Raspberry Pi shutdown button and lastly a second hole for an indication LED.
+### Hoop
 
-#### Components 
+The outer diameter of the hoop is 225mm and the thickness is 30mm. The hoop is designed so that you can fit two rubber O-rings inside. 
 
-- ON/OFF switch, panel mount
-- DC power connector, jack, 2.1mm x 5.5mm, panel mount
-- DIN 5 female connector, panel mount, 180°
-- button, panel mount
+## Assembly
+
+### 1. Box
+
+![Nevim](images/IMG_20180910_115254.jpg)
