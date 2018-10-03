@@ -77,9 +77,3 @@ Furthermore, there are holes for ODrive, encoder, motor and also a hole which al
 ### Hoop
 
 The outer diameter of the hoop is 225mm and the thickness is 30mm. The hoop is designed so that you can fit two rubber O-rings inside. 
-
-## Assembly
-
-### 1. Box
-
-![Nevim](images/IMG_20180910_115254.jpg)
